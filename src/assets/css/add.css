@@ -1,0 +1,32 @@
+.add {
+  width: 100%;
+  padding: 0.3125rem 0.625rem 0rem 0.625rem;
+  box-sizing: border-box;
+}
+.add ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 0.625rem;
+}
+.add ul li {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+.add ul li i {
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: #ffda44;
+}
+.add ul li span {
+  font-size: 1rem;
+  color: #333;
+}
+.add ul li:visited {
+  background-color: yellow;
+}
